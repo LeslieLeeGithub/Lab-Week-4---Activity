@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConsolePrint : MonoBehaviour
+public class PrintAndHide : MonoBehaviour
 {
 
     private int counter = 3;
+
+    public Renderer rend;
+
 
 
 
